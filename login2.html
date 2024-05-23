@@ -65,8 +65,25 @@
         // Check username and password (for testing purposes)
         if (username === "alaguraja" && password === "123456") {
             // Redirect to another page
-            window.location.href = "https://black-moon-49484.pktriot.net/wha2d/demo2/home.php";
-        } else {
+            window.location.href = "./user.html";
+        }
+        
+        if (username === "sandy" && password === "123456") {
+            // Redirect to another page
+            window.location.href = "./esp32_02.html";
+        }
+        
+        
+        if (username === "admin" && password === "123456") {
+            // Redirect to another page
+            window.location.href = "./admin.html";
+        }
+        
+        
+        
+        
+        
+        else {
             alert("Invalid username or password");
         }
     });
